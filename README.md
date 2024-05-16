@@ -33,7 +33,7 @@ mobile:-
 
 ### Links
 
-- Solution URL: [solution](https://your-solution-url.com)
+- Solution URL: [solution](https://github.com/kudos2Shef/NFT-PREVIEW-CARD)
 - Live Site URL: [Preview](https://nft-preview-card-nine-olive.vercel.app/)
 
 ## My process
@@ -42,9 +42,9 @@ mobile:-
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
+- JS Style
 
 
 ### What I learned
@@ -61,19 +61,19 @@ Usage of dialog is something I am already aware however this is my first fronten
      ```
 ```css
 .cube_container:hover #cube_hover{
-	cursor: pointer;
-	height: 291px;
-	width: 302px;
+	
 	display: inline-block;
-	margin: auto;
-	border: none;
-	border-radius: 0.5rem;
 
 }```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+equil.addEventListener('mouseover',function(){
+	equil.style.color = 'hsla(178, 100%, 50%,0.7)';
+	equil.style.cursor = 'pointer';
+	
+});
+equil.addEventListener('mouseleave',function(){
+	equil.style.color = White;
+});
 ```
 
 
